@@ -1,7 +1,8 @@
 import BgText from "./BgText";
+import Navbar from "./Navbar";
 
 
 
 
 
-export { BgText }
+export { BgText, Navbar }

@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html style={{ filter: "url(#noise-filter)", backgroundColor: '#151515' }} lang="en">
+    <html lang="en">
       <head />
       <body className={`${kanit.className}`}>
         {children}
