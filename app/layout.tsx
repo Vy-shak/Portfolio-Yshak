@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={`${kanit.className}`}>
+      <body className={`${kanit.className} bg-neutral-800`}>
         {children}
       </body>
     </html>

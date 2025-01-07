@@ -3,7 +3,7 @@ import { Navbar } from "@/components";
 
 export default function Home() {
   return (
-    <section className="w-full flexCenter text-white h-full ">
+    <section className="w-full px-4 sm:px-8 md:px-12 lg:px-16 flexCenter bg-neutral-800 text-white h-full ">
       <Navbar />
       <Hero />
     </section>
