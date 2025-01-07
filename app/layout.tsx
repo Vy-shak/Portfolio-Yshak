@@ -14,6 +14,22 @@ export const metadata = {
   description: "Your app description",
 };
 
+
+const bodyStyle: React.CSSProperties = {
+  minHeight: '100vh',
+  backgroundColor: '#1a1a1a',
+  backgroundImage: `
+    linear-gradient(90deg, rgba(111,112,112, 0.1) 1px, transparent 1px),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 19px,
+      rgba(111,112, 0.1) 19px,
+      rgba(111,112, 0.1) 20px
+    )
+  `,
+  backgroundSize: '100px 100%, 1px 100%',
+}
 export default function RootLayout({
   children,
 }: {
@@ -22,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={`${kanit.className} bg-neutral-800`}>
+      <body style={bodyStyle} className={`${kanit.className}`}>
         {children}
       </body>
     </html>
