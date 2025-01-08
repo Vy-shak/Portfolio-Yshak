@@ -1,7 +1,7 @@
 
 interface buttonProps {
     variant: 'primary' | 'secondary' | 'tertiary';
-    size: 'sm' | 'md' | 'lg' | 'full';
+    size: 'default' | 'sm' | 'md' | 'lg' | 'full';
     defaultCss?: string,
     text: string;
     startIcon?: any;
@@ -12,15 +12,11 @@ interface buttonProps {
 
 const constants = {
     variant: {
-        primary: 'bg-white  font-normal text-neutral-700 hover:bg-Bgreen-900',
-        secondary: 'border-2 border-Breen-700  text-white opacity-80 font-Montserrat',
-        tertiary: 'bg-gray-50 w-fit focus:outline-0 outline outline-blue-100 outline-1 text-gray-900 text-sm '
+        primary: 'bg-white hover:bg-greenPrimary-900  bg-greenPrimary-700  font-normal text-white ',
+        secondary: 'border-2 rounded-md border-greenPrimary-600  text-white font-normal',
     },
     size: {
-        sm: 'px-2 py-1 text-sm w-fit rounded-sm ',
-        md: 'px-6  py-2 text-base w-fit rounded-sm',
-        lg: 'px-6 py-3 text-lg w-fit',
-        full: 'text-sm w-full h-10'
+        default: 'xl:px-4 py-2 px-2  xl:py-2 text-sm  w-fit rounded-md ',
     },
 }
 
