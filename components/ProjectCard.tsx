@@ -18,8 +18,8 @@ function ProjectCard({ projectCover, projectName, about, liveLink, github }: pro
                 <div className='w-full flex justify-start items-center'>
                     <span className='w-fit h-fit font-bold leading-tight italic'>{projectName}</span>
                 </div>
-                <div>
-                    <Image className='rounded' alt='cover image' src={projectCover} />
+                <div className='w-full overflow-hidden rounded   '>
+                    <Image className='rounded hover:scale-105 transition-all duration-1000 ease-out' alt='cover image' src={projectCover} />
                 </div>
                 <p className='font-normal text-sm text-neutral-300'>{about}</p>
             </div>

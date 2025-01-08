@@ -20,7 +20,7 @@ function QuestionBlock({ question, answer, id, open, setOpen }: questionT) {
         <div >
             <div className='w-fit flexCenter'>
                 <span className='text-white leading-tight text-normal  text-xs w-fit'>{question}</span>
-                <div onClick={() => setOpen(id)} className='w-fit h-fit'>
+                <div onClick={() => setOpen((prev: number) => prev === id ? 10 : id)} className='w-fit h-fit'>
                     <QnaIcon />
                 </div>
             </div>
