@@ -1,9 +1,12 @@
 import React from 'react'
 import { BgText } from '@/components'
 import { Myprofile, Button } from '@/components'
+import Bubble1 from "../../public/Images/Hero/Bubble1.png"
+import Image from 'next/image'
 function Hero() {
     return (
         <section className='w-full flexCenter overflow-y-hidden '>
+            <Image alt='decoration' className='absolute w-28 md:w-36 lg:w-72 z-20 top-0 right-0' src={Bubble1} />
             <BgText key={1} align={'left-0'} text=' Developer turned Designer Developer turned Designer ' from={'`0'} to='-100vh' />
             <BgText key={2} align={'right-0'} text='designer turned Developer designer turned Developer designer turned Developer ' from={'0'} to='100vh' />
             <div className='w-full z-10 flex justify-center items-center flex-col mt-12  md:mt-12 lg:mt-16'>
@@ -19,7 +22,7 @@ function Hero() {
                     </div>
                     <div style={{
                         clipPath: "inset(0px 0px 12.5% 0px round 0 0 2% 0)"
-                    }} className='w-full z-10 h-96 py-0   lg:py-4'>
+                    }} className='w-full z-10 h-fit pb-6 md:h-96 py-0   lg:py-4'>
                         <div className='w-full pt-4 px-2 sm:px-2 md:px-4 lg:p-0 flex space-y-3 md:space-y-2 lg:space-y-4 flex-col items-start justify-start  lg:pt-4  rounded-tr-lg h-fit pb-4   lg:h-full bg-neutral-900'>
                             <h2 className='italic font-semibold lg:text-2xl md:text-2xl sm:text-xl text-sm'>Hello, I’m <span className='text-greenPrimary-600'>Yshak.</span><br />
                                 Designing with intent, coding with purpose.</h2>

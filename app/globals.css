@@ -28,6 +28,7 @@
   justify-content: start;
   align-items: center;
 }
+*{box-sizing: border-box;}
 /* 
   * {
     outline: 1px solid red;
