@@ -1,8 +1,7 @@
 import React from 'react'
 import { BgText } from '@/components'
-import { Myprofile, Button } from '@/components'
+import { Myprofile, Button, ShortSidebar } from '@/components'
 import Bubble1 from "../../public/Images/Hero/Bubble1.png"
-
 import Image from 'next/image'
 function Hero() {
     return (
