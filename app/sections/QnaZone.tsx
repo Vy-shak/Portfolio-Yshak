@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react'
 import QuestionBlock from '@/components/QuestionBlock'
-
 const qna = [
     {
         id: 1,
@@ -29,11 +28,11 @@ const qna = [
 function QnaZone() {
     const [open, setOpen] = useState(2)
     return (
-        <section className='w-full mt-6 space-y'>
+        <section className='w-full mt-6 space-y-6'>
             <div className='flexCenter w-full h-fit'>
                 <span className='w-fit leading-none font-bold text-lg sm:text-lg md:text-xl lg:text-2xl whitespace-nowrap'>Qna Zone</span>
             </div>
-            <div>
+            <div className='space-y-8 transition-all duration-500'>
                 {qna.map((item) => (
                     <QuestionBlock key={item.id} id={item.id} setOpen={setOpen} open={open} answer={item.answer} question={item.question} />
                 ))}
