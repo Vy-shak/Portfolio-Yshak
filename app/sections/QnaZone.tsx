@@ -28,7 +28,7 @@ const qna = [
 function QnaZone() {
     const [open, setOpen] = useState(1)
     return (
-        <section className='w-full lg:mt-12 md:mt-8 mt-6 space-y-6'>
+        <section className='w-full lg:pl-12 justify-center items-start flex-col lg:mt-12 md:mt-8 mt-6 space-y-6'>
             <div className='flexCenter border-y-2 border-greenPrimary-1100 w-full h-fit'>
                 <span className='w-fit leading-none font-bold text-lg sm:text-lg md:text-xl lg:text-2xl whitespace-nowrap'>Qna Zone</span>
             </div>

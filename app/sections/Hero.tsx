@@ -2,13 +2,14 @@ import React from 'react'
 import { BgText } from '@/components'
 import { Myprofile, Button } from '@/components'
 import Bubble1 from "../../public/Images/Hero/Bubble1.png"
+
 import Image from 'next/image'
 function Hero() {
     return (
         <section className='w-full flexCenter overflow-y-hidden '>
             <Image alt='decoration' className='absolute w-28 md:w-36 lg:w-72 z-20 top-0 right-0' src={Bubble1} />
-            <BgText key={1} align={'left-0'} text=' Developer turned Designer Developer turned Designer ' from={'`0'} to='-100vh' />
-            <BgText key={2} align={'right-0'} text='designer turned Developer designer turned Developer designer turned Developer ' from={'0'} to='100vh' />
+            <BgText key={1} align={'left-0'} text=' Developer turned Designer' from={'`0'} to='-100vh' />
+            <BgText key={2} align={'right-0'} text='designer ' from={'0'} to='100vh' />
             <div className='w-full z-10 flex justify-center items-center flex-col mt-12  md:mt-12 lg:mt-16'>
                 <div className='w-full h-fit flexcolCenter'>
                     <span className=' w-fit text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold'>DEVELOPER</span>
