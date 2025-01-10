@@ -19,7 +19,7 @@ const bodyStyle: React.CSSProperties = {
   minHeight: '100vh',
   backgroundColor: '#1a1a1a',
   backgroundImage: `
-    linear-gradient(90deg, rgba(111,112,112, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(111,112,112,   0.1) 1px, transparent 1px),
     repeating-linear-gradient(
       90deg,
       transparent,
