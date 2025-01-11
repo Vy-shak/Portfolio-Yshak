@@ -17,9 +17,6 @@ export const Navmenu = [{
     id: 'Resume',
     text: 'Resume'
 }, {
-    id: 'Journey',
-    text: 'Journey'
-}, {
     id: 'Social',
     text: 'Social'
 },

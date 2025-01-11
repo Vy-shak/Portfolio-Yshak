@@ -1,5 +1,5 @@
 "use client"
-import { Hero, Projects, Qnazone, Footer, Skills, Education } from "./sections";
+import { Hero, Projects, Qnazone, Footer, Skills, } from "./sections";
 import { Navbar } from "@/components";
 import { ShortSidebar } from "@/components";
 import { useState } from "react";
@@ -12,7 +12,6 @@ export default function Home() {
       <Navbar Snavbar={Snavbar} SetSnavbar={setSnavbar} />
       {Snavbar && <ShortSidebar />}
       <section className="w-full h-fit  overflow-x-clip overflow-y-hidden ">
-
         <section className="w-full overflow-x-clip px-4 sm:px-8 md:px-12 lg:px-16 flexCenter  text-white h-full ">
           <Hero />
         </section>
@@ -21,9 +20,6 @@ export default function Home() {
         </section>
         <section className="w-full px-4 sm:px-8 md:px-12 lg:px-16 flexCenter  text-white h-full ">
           <Skills />
-        </section>
-        <section className="w-full px-4 sm:px-8 md:px-12 lg:px-16 flexCenter  text-white h-full ">
-          <Education />
         </section>
         <section className="w-full px-4 sm:px-8 md:px-12 lg:px-16 flexCenter  text-white h-full ">
           <Qnazone />
