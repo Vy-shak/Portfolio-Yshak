@@ -28,7 +28,7 @@ function Footer() {
     return (
         <section className='w-full justify-between pt-3 sm:pt-4 md:pt-6  h-28 sm:h-32 md:h-36 lg:h-40 flex-col flex py-2 md:py-4 lg:py-6 items-center'>
             <div className='w-full max-w-md'>
-                <h2 className='text-[14px] sm:text-xs md:text-sm lg:text-md font-semibold text-center'><span className='whitespace-nowrap'>" The people who are crazy enough to think "</span><br /><span >they can change the world </span><br /><span className='underline decoration-greenPrimary-500'>are the ones who do "</span></h2>
+                <h2 className='text-[14px] sm:text-xs md:text-sm lg:text-md font-semibold text-center'><span className='whitespace-nowrap'>{'The people who are crazy enough to think'}</span><br /><span >they can change the world </span><br /><span className='underline decoration-greenPrimary-500'>{'are the ones who do'}</span></h2>
                 <div className='w-full flex justify-end items-center text-white'>
                     <span className='text-[10px]  whitespace-nowrap'>{"-apple's 'Think diffrent' commercial, 1997"}</span>
                 </div>
