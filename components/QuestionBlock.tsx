@@ -1,14 +1,16 @@
 "use client";
 import QnaIcon from './UI/QnaIcon'
 import Image from 'next/image'
+import { Dispatch, SetStateAction } from 'react';
+
 import myImage from "../public/Images/Profile.png"
 
 interface questionT {
     id: number
     question: string,
     answer: string,
-    open: any,
-    setOpen: any
+    open: number,
+    setOpen: Dispatch<SetStateAction<number>>
 }
 
 function QuestionBlock({ question, answer, id, open, setOpen }: questionT) {

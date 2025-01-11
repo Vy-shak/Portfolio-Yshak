@@ -1,8 +1,6 @@
-import React from 'react'
 import { StackCard } from '@/components'
 import Typescript from '../../public/Images/Skills/main/Typescript.png'
 import SkillCard from '@/components/SkillCard';
-import { div } from 'motion/react-client';
 const Mainstack1 = [
     {
         id: 1,
