@@ -24,8 +24,12 @@ function ProjectCard({ projectCover, projectName, about, liveLink, github }: pro
                 <p className='font-normal text-sm text-neutral-300'>{about}</p>
             </div>
             <div className='w-fit lg:space-x-8 space-x-4 flexCenter'>
-                <Button variant='primary' startIcon={<Globe />} text='Livelink' size='default' />
-                <Button variant='secondary' startIcon={<Github />} text='Github' size='default' />
+                <a href={liveLink} target="_blank">
+                    <Button variant='primary' startIcon={<Globe />} text='Livelink' size='default' />
+                </a>
+                <a href={github} target="_blank">
+                    <Button variant='secondary' startIcon={<Github />} text='Github' size='default' />
+                </a>
             </div>
         </div>
     )

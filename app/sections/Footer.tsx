@@ -1,10 +1,7 @@
-"use client"
-
-import React, { useState } from 'react'
+"use client";
+import { useState } from 'react';
 import Image from 'next/image'
 import radio from '../../public/Images/Footer/Radio.png'
-import shadowLeft from '../../public/Images/Footer/ShadowLeft.png'
-import shadowRight from '../../public/Images/Footer/Shadowright.png'
 import { Play, Pause } from 'lucide-react';
 
 
@@ -30,8 +27,6 @@ function Footer() {
 
     return (
         <section className='w-full justify-between pt-3 sm:pt-4 md:pt-6  h-28 sm:h-32 md:h-36 lg:h-40 flex-col flex py-2 md:py-4 lg:py-6 items-center'>
-            {/* <Image className='left-0 w-20 absolute ' alt='leftBubble' src={shadowLeft} />
-            <Image className='right-0 w-20  absolute' alt='leftBubble' src={shadowRight} /> */}
             <div className='w-full max-w-md'>
                 <h2 className='text-[14px] sm:text-xs md:text-sm lg:text-md font-semibold text-center'><span className='whitespace-nowrap'>" The people who are crazy enough to think "</span><br /><span >they can change the world </span><br /><span className='underline decoration-greenPrimary-500'>are the ones who do "</span></h2>
                 <div className='w-full flex justify-end items-center text-white'>

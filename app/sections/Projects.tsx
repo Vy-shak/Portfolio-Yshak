@@ -9,7 +9,7 @@ export default function Projects() {
             </div>
             <div className='w-full lg:flex-row flex flex-col gap-2'>
                 <div className='w-full flex-col space-y-4'>
-                    <ProjectCard liveLink='link' github='link' about='An social platfroms to meet, get mentors, find real mentors and quick sheet merging platform build for archietcts' projectName='Easyplot' projectCover={EasyplotL} />
+                    <ProjectCard liveLink='https://easyplot-landing-nqea.vercel.app' github='https://github.com/Vy-shak/Easyplot-Landing' about='An social platfroms to meet, get mentors, find real mentors and quick sheet merging platform build for archietcts' projectName='Easyplot' projectCover={EasyplotL} />
                     <ProjectCard liveLink='link' github='link' about='An social platfroms to meet, get mentors, find real mentors and quick sheet merging platform build for archietcts' projectName='Easyplot' projectCover={EasyplotL} />
                 </div>
                 <div className='w-full flex-col space-y-4'>
