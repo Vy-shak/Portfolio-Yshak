@@ -1,10 +1,7 @@
-"use client"
-
-import React, { useState } from 'react'
+"use client";
 import QnaIcon from './UI/QnaIcon'
 import Image from 'next/image'
 import myImage from "../public/Images/Profile.png"
-import { motion } from 'motion/react'
 
 interface questionT {
     id: number
@@ -12,7 +9,7 @@ interface questionT {
     answer: string,
     open: any,
     setOpen: any
-};
+}
 
 function QuestionBlock({ question, answer, id, open, setOpen }: questionT) {
     console.log(open)

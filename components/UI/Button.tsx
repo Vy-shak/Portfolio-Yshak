@@ -4,8 +4,8 @@ interface buttonProps {
     size: 'default',
     defaultCss?: string,
     text: string;
-    startIcon?: any;
-    endIcon?: any;
+    startIcon?: React.ReactNode;
+    endIcon?: React.ReactNode;
     handleClick?: () => void;
 };
 
