@@ -30,7 +30,7 @@ function Footer() {
             <div className='w-full max-w-md'>
                 <h2 className='text-[14px] sm:text-xs md:text-sm lg:text-md font-semibold text-center'><span className='whitespace-nowrap'>" The people who are crazy enough to think "</span><br /><span >they can change the world </span><br /><span className='underline decoration-greenPrimary-500'>are the ones who do "</span></h2>
                 <div className='w-full flex justify-end items-center text-white'>
-                    <span className='text-[10px]  whitespace-nowrap'>-apple's "Think diffrent" commercial, 1997</span>
+                    <span className='text-[10px]  whitespace-nowrap'>{"-apple's 'Think diffrent' commercial, 1997"}</span>
                 </div>
             </div>
             <div className='w-full flexCenter space-x-2'>
