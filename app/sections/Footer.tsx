@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
             <div className='w-full flexCenter space-x-2'>
-                <span className='whitespace-nowrap sm:text-xs md:text-sm  text-[12px]'>Scrolled too much? Listen something good =</span>
+                <span className='whitespace-nowrap sm:text-xs md:text-sm  text-[12px]'>{"Scrolled too much? Listen something good ="}</span>
                 <div className='flexCenter'>
                     <Image className='w-6' alt='radio' src={radio} />
                     <div onClick={playAudio} className='w-fit h-fit'>
