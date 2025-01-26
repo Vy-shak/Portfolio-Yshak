@@ -1,6 +1,7 @@
 import { StackCard } from '@/components'
-import Typescript from '../../public/Images/Skills/main/Typescript.png'
+import { Typescript, Reactlogo, Nextjs, Nodelogo, Postqrl, MongoDb, Htmllogo, Tailwind, Prisma, Redux } from '@/public/index';
 import SkillCard from '@/components/SkillCard';
+import { Html } from 'next/document';
 const Mainstack1 = [
     {
         id: 1,
@@ -9,28 +10,28 @@ const Mainstack1 = [
     },
     {
         id: 2,
-        Img: Typescript,
+        Img: Reactlogo,
         text: 'React'
     },
     {
         id: 3,
-        Img: Typescript,
+        Img: Nextjs,
         text: 'Next.js'
     }];
 
 const Mainstack2 = [{
     id: 4,
-    Img: Typescript,
+    Img: Nodelogo,
     text: 'Node.js'
 },
 {
     id: 5,
-    Img: Typescript,
+    Img: MongoDb,
     text: 'MongoDB'
 },
 {
     id: 6,
-    Img: Typescript,
+    Img: Postqrl,
     text: 'PostgreSQL'
 }
 ]
@@ -43,7 +44,7 @@ const Frontend = [
     },
     {
         id: 2,
-        Img: Typescript,
+        Img: Htmllogo,
         text: 'HTML5'
     },
     {
@@ -53,12 +54,12 @@ const Frontend = [
     },
     {
         id: 4,
-        Img: Typescript,
+        Img: Tailwind,
         text: 'Tailwind CSS'
     },
     {
         id: 5,
-        Img: Typescript,
+        Img: Redux,
         text: 'Redux'
     },
     {
