@@ -28,9 +28,19 @@
   justify-content: start;
   align-items: center;
 }
-*{box-sizing: border-box;}
 
-  /* * {
+.flexcolStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* * {
     outline: 1px solid red;
     box-sizing: border-box; 
   } */

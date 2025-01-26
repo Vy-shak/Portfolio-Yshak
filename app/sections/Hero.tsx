@@ -1,5 +1,6 @@
 import { BgText } from '@/components'
 import { Myprofile, Button } from '@/components';
+import { FileBadge, Projector } from "lucide-react"
 import Bubble1 from "../../public/Images/Hero/Bubble1.png"
 import Link from 'next/link';
 import Image from 'next/image'
@@ -29,9 +30,12 @@ function Hero() {
                             <p className='w-fit text-neutral-300 lg:text-xs md:text-sm sm:text-xs text-[14px]  font-normal'>I started my journey designing interfaces, but I soon realized my passion couldn’t be confined to design alone.
                                 This realization led me to dive into coding, exploring the <span className='underline decoration-greenPrimary-700'>full spectrum of creation.</span>
                                 Today, I’m a  <span className='underline decoration-greenPrimary-700'>full-stack developer,</span> seamlessly blending design and development to craft impactful solution</p>
-                            <Link href={'#projects'}>
-                                <Button variant='primary' size='default' text='Exolore projects' ></Button>
-                            </Link>
+                            <div className='flexCenter md:flexcolStart  w-fit h-fit space-x-4'>
+                                <Link href={'#projects'}>
+                                    <Button startIcon={<Projector />} variant='primary' size='default' text='Explore projects' ></Button>
+                                </Link>
+                                <Button startIcon={<FileBadge />} variant='secondary' text='Resume' size='default' />
+                            </div>
                         </div>
                     </div>
                 </div>
