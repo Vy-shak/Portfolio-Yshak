@@ -1,7 +1,6 @@
 import { StackCard } from '@/components'
 import { Typescript, Reactlogo, Nextjs, Nodelogo, Postqrl, MongoDb, Htmllogo, Tailwind, Prisma, Redux } from '@/public/index';
 import SkillCard from '@/components/SkillCard';
-import { Html } from 'next/document';
 const Mainstack1 = [
     {
         id: 1,
@@ -107,7 +106,7 @@ const Backend = [
     },
     {
         id: 5,
-        Img: Typescript,
+        Img: Prisma,
         text: 'Prisma'
     }
 ];

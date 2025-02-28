@@ -6,7 +6,6 @@ import menu from '../public/Icons/Navmenu.svg'
 import closeMenu from '../public/Icons/CloseNavmenu.svg'
 import Image from 'next/image'
 import Link from 'next/link'
-import { it } from 'node:test'
 
 
 export const Navmenu = [{
