@@ -39,7 +39,7 @@ function Navbar({ SetSnavbar, Snavbar }: Navbar) {
         <section className='absolute px-2 sm:px-4 md:px-8 lg:px-16 py-1  md:py-2 z-50 items-center justify-center  top-0 w-full h-12 '>
             <div className='flex max-md:justify-center md:justify-between items-center px-8 w-full h-full bg-neutral-900 rounded-md'>
                 {Navmenu.map((item) => (
-                    <Link href={`${item.href ? item.href : "#"}`}>
+                    <Link key={item.id} href={`${item.href ? item.href : "#"}`}>
                         <span key={item.id} className='text-white max-md:hidden md:visible   whitespace-nowrap border-2 border-transparent transition-colors duration-100 hover:border-greenPrimary-400  hover:bg-neutral-600 text-xs px-3 py-1 rounded-md  w-fit'>{item.text}</span>
                     </Link>
                 ))}
