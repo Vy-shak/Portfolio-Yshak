@@ -38,7 +38,7 @@ const Mainstack2 = [{
 const Frontend = [
     {
         id: 1,
-        Img: Typescript,
+        Img: Reactlogo,
         text: 'React'
     },
     {
