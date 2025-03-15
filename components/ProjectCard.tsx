@@ -6,12 +6,9 @@ import { Github, Globe } from "lucide-react"
 interface projectcard {
     projectCover: StaticImageData,
     projectName: string,
-    about: string,
-    liveLink: string,
-    github: string
 }
 
-function ProjectCard({ projectCover, projectName, about, liveLink, github }: projectcard) {
+function ProjectCard({ projectCover, projectName}: projectcard) {
     return (
         <div className='w-full px-4 pt-2 space-y-4 pb-3 flexcolCenter bg-neutral-900 border-2 border-greenPrimary-800 rounded-md'>
             <div className='w-full space-y-2'>
@@ -21,7 +18,6 @@ function ProjectCard({ projectCover, projectName, about, liveLink, github }: pro
                 <div className='w-full overflow-hidden rounded   '>
                     <Image className='rounded hover:scale-105    transition-all duration-1000 ease-out' alt='cover image' src={projectCover} />
                 </div>
-                <p className='font-normal text-sm text-neutral-300'>{about}</p>
             </div>
             <div className='w-fit lg:space-x-8 space-x-4 flexCenter'>
                 <a href={liveLink} target="_blank">
