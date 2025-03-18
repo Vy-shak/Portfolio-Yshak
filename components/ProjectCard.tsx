@@ -1,6 +1,5 @@
 import React from 'react'
 import Image, { StaticImageData } from 'next/image'
-import Button from './UI/Button'
 
 interface projectcard {
     projectCover: StaticImageData,
